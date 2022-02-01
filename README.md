@@ -10,7 +10,6 @@ MIT
 #### Requirements
 * Active CloudGenix Account - Please generate your API token and add it to cloudgenix_settings.py
 * Python >=3.7
-* CSV Files with a app_name, latency, loss and jiter column headers
 
 #### Installation:
  Scripts directory. 
@@ -20,8 +19,8 @@ MIT
 ### Examples of usage:
  Please generate your API token and add it to cloudgenix_settings.py
  
- - Your CSV file must contain column headers app_name, latency, loss and jitter
- - If you set any of the latency, loss or jitter values to 0 they will be enabled
+ * Your CSV file must contain column headers app_name, latency, loss and jitter
+ * If you set any of the latency, loss or jitter values to 0 they will be enabled
  
  - Update ALL-SITES LQM thresholds from a CSV
  1. ./lqm.py -S ALL_SITES -F lqm_apps.csv
