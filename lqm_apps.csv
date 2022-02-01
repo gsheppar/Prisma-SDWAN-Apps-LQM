@@ -1,0 +1,4 @@
+app_name,latency,loss,jitter
+Office365,150,3,0
+Outlook,150,3,0
+Salesforce,150,3,0
